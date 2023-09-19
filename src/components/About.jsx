@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </div>
         <button className="play-butt">
-          <Arrow />  Play
+          <Arrow />  <span>Play</span>
         </button>
       </div>
       <div className="w-1/2 aboutTimeline bg-[url('../public/images/Vector3.png')] bg-no-repeat bg-center bg-cover">

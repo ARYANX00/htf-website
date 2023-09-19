@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         {/* Conditionally render navigation links for md and above */}
         <ul className='hidden md:flex md:gap-10'>
-          <li className='cursor-pointer'>About</li>
+          <li className='cursor-pointer'><a href="#">About</a></li>
           <li className='cursor-pointer'>Roadmap</li>
           <li className='cursor-pointer'>Challenges</li>
           <li className='cursor-pointer'>Prizes</li>

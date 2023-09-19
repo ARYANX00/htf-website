@@ -84,6 +84,7 @@
 }
 .play-butt{
     content: ' ';
+    position: relative;
     font-family: 'Alone_in_space';
     font-size: 25px;
     border: 2px solid white;
@@ -94,3 +95,8 @@
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
+.play-butt > span{
+    position: relative;
+    bottom: 5px;
+}
+
