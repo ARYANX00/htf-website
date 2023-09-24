@@ -1,4 +1,11 @@
 import AboutTimeline from "./AboutTimeline";
+import 'boxicons';
+
+const Arrow = () =>{
+  return(
+    <box-icon name='play' color='#ffffff' size='md' ></box-icon>
+  );
+};
 
 const About = () => {
   return (
@@ -13,8 +20,8 @@ const About = () => {
             developer
           </p>
         </div>
-        <button className="w-[25rem] h-[19rem] text-[24px] font-[200] tracking-widest px-4 py-2 border-white border-2">
-          Play
+        <button className="play-butt">
+          <Arrow />  <span>Play</span>
         </button>
       </div>
       <div className="w-1/2 aboutTimeline bg-[url('../public/images/Vector3.png')] bg-no-repeat bg-center bg-cover">
