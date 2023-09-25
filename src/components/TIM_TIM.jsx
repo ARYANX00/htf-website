@@ -11,7 +11,7 @@ const TIM_TIM = () =>{
             </div>
     
             <div className="vect">
-                <img src="src\assets\new_assets\Vector 7.png" alt="yes" />
+                <img src="src\assets\new_assets\vector.svg" alt="yes" />
             </div>
     
         <div className="sec-cont">
@@ -64,7 +64,7 @@ const TIM_TIM = () =>{
         </div>
         <div className="sec-container">
         <div className="vect-second">
-            <img src="src\assets\new_assets\Vector 8.png" alt="yes"/>
+            <img src="src\assets\new_assets\vector3.svg" alt="yes"/>
         </div>
     </div>
 
