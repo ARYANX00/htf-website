@@ -40,7 +40,7 @@
   font-size: 96px;
   font-style: normal;
   font-weight: 500;
-  line-height: 80%; /* 76.8px */
+  line-height: 80%;
   letter-spacing: -29.76px;
 }
 .name-space span {
@@ -65,7 +65,7 @@
   font-size: 34px;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%; /* 40.8px */
+  line-height: 120%;
   letter-spacing: -10.54px;
 }
 
@@ -89,7 +89,7 @@
   font-size: 96px;
   font-style: normal;
   font-weight: 500;
-  line-height: 80%; /* 76.8px */
+  line-height: 80%;
   letter-spacing: -29.76px;
 }
 
@@ -134,7 +134,7 @@
 .vect-second {
   content: " ";
   position: relative;
-  margin: -8px 0 0 -325px;
+  margin: -8px 0 0 -1190px;
   z-index: 1;
 }
 .vect-second img {
@@ -159,7 +159,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 22.4px; /* 140% */
+  line-height: 22.4px;
 }
 .cent-cont > span {
   content: " ";
