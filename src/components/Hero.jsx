@@ -1,13 +1,13 @@
 import React from 'react';
-import backImg from "/images/image1.png";
+import ParticleBg from './ParticleBg';
 import HeroImg from "/images/hero.png";
 
 const Hero = () => {
   return (
     
-    <div className='relative overflow-y-hidden'>
-      <img src={backImg} alt="" className='w-screen h-screen brightness-50'/>
-    <div className='absolute right-10 top-24'>
+    <div className='relative overflow-y-hidden h-screen'>
+      <ParticleBg/>
+    <div className='absolute right-10 top-24 max-sm:hidden'>
         <img src={HeroImg} alt=""/>
     </div>
     <div className='top-1/3 lg:left-20 absolute p-2 lg:w-1/2'>
