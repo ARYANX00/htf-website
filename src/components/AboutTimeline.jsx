@@ -1,47 +1,104 @@
+// eslint-disable-next-line no-unused-vars
+import Timeline from "@mui/lab/Timeline";
+// eslint-disable-next-line no-unused-vars
+import TimelineItem from "@mui/lab/TimelineItem";
+import TimelineSeparator from "@mui/lab/TimelineSeparator";
+import TimelineConnector from "@mui/lab/TimelineConnector";
+import TimelineContent from "@mui/lab/TimelineContent";
+import TimelineDot from "@mui/lab/TimelineDot";
+import { motion } from "framer-motion";
+
 const Item = ({ title, date }) => {
   return (
-    <div className="">
+    <div className="h-[15vh]">
       <h4 className=" text-[16px] uppercase">{title}</h4>
       <p className="text-[#9a9a9a] text-[14px]">{date}</p>
     </div>
   );
 };
-const Ball = () => {
-  return (
-    <div className="w-[26px] h-[26px] rounded-full bg-white shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]"></div>
-  );
+
+const timelineAnimation = {
+  initial: { opacity: 0, y: -100 },
+  animate: { opacity: 1, transition: { duration: 0.7, delay: 0.3 }, y: 0 },
 };
 
-const AboutTimeline = () => {
+export default function AlternateReverseTimeline() {
   return (
-    <div className="flex  w-[80%] left-[120px] h-full relative justify-center  ">
-      <div className="h-[490px] w-[6px] absolute translate-x-[50%] top-20  left-1/2  bg-[#76A3BE]"></div>
-      <div className="z-10 flex flex-col justify-between h-[490px]  absolute  top-20  left-[50%] translate-x-[-25%]">
-        <Ball />
-        <Ball />
-        <Ball />
-        <Ball />
-        <Ball />
-      </div>
-      <div className="  grid grid-cols-2 h-[593px] w-[60%] self-center justify-self-center">
-        <div className=" w-1/2 self-start justify-self-start col-span-2">
-          <Item title={"hack overflow 1"} date={"2019"} />
-        </div>
-        <div className=" self-start -mr-[60px] justify-self-end w-1/2 col-span-2">
-          <Item title={"hack overflow 2"} date={"2020"} />
-        </div>
-        <div className=" self-start w-1/2 justify-self-start col-span-2">
-          <Item title={"hack overflow 3"} date={"2021"} />
-        </div>
-        <div className=" self-start -mr-[60px] justify-self-end w-1/2 col-span-2">
-          <Item title={"hack overflow 4"} date={"2022"} />
-        </div>
-        <div className=" self-start w-1/2 justify-self-start col-span-2">
-          <Item title={"hack overflow 5"} date={"2023"} />
-        </div>
-      </div>
-    </div>
+    <Timeline position="alternate-reverse" className="h-[80vh] lg:ml-[15vw]">
+      <motion.div
+        variants={timelineAnimation}
+        initial="initial"
+        whileInView="animate"
+      >
+        <TimelineItem position="right">
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Item title={"hack overflow 1"} date={"2019"} />
+          </TimelineContent>
+        </TimelineItem>
+      </motion.div>
+      <motion.div
+        variants={timelineAnimation}
+        initial="initial"
+        whileInView="animate"
+      >
+        <TimelineItem position="left">
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Item title={"hack overflow 2"} date={"2020"} />
+          </TimelineContent>
+        </TimelineItem>
+      </motion.div>
+      <motion.div
+        variants={timelineAnimation}
+        initial="initial"
+        whileInView="animate"
+      >
+        <TimelineItem position="right">
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Item title={"hack overflow 3"} date={"2021"} />
+          </TimelineContent>
+        </TimelineItem>
+      </motion.div>
+      <motion.div
+        variants={timelineAnimation}
+        initial="initial"
+        whileInView="animate"
+      >
+        <TimelineItem position="left">
+          <TimelineSeparator>
+            <TimelineDot />
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Item title={"hack overflow 4"} date={"2022"} />
+          </TimelineContent>
+        </TimelineItem>
+      </motion.div>
+      <motion.div
+        variants={timelineAnimation}
+        initial="initial"
+        whileInView="animate"
+      >
+        <TimelineItem position="right">
+          <TimelineSeparator>
+            <TimelineDot />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Item title={"hack overflow 5"} date={"2023"} />
+          </TimelineContent>
+        </TimelineItem>
+      </motion.div>
+    </Timeline>
   );
-};
-
-export default AboutTimeline;
+}

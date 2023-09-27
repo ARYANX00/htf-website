@@ -4,87 +4,83 @@
 
 /*fonts*/
 @font-face {
-    font-family: 'Alone_in_space';
-    src: url(fonts/AloneInSpaceReguler-qZ2xr.ttf);
+  font-family: "Alone_in_space";
+  src: url(fonts/AloneInSpaceReguler-qZ2xr.ttf);
 }
 @font-face {
-    font-family: 'Ubuntu';
-    src:url(fonts/Ubuntu/UbuntuMedium-rYwL.ttf);
+  font-family: "Ubuntu";
+  src: url(fonts/Ubuntu/UbuntuMedium-rYwL.ttf);
 }
 
-.reg-button{
-    /* md:block hidden border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
-   height: 40px;
-   width: 150px;
-   border: 2px solid white;
-   border-top-left-radius:15px ;
-   border-bottom-right-radius:15px ;
+.reg-button {
+  /* md:block hidden border-2 border-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
+  height: 40px;
+  width: 150px;
+  border: 2px solid white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.regest-button{
-    /* bg-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
-    height: 40px;
-    width: 150px;
-    color: black;
-    background-color: white;
-    border-top-left-radius:15px ;
-    border-bottom-right-radius:15px ;
+.regest-button {
+  /* bg-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
+  height: 40px;
+  width: 150px;
+  color: black;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.regest-button:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
+.regest-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
-.roadmap-button{
-    height: 40px;
-    width: 150px;
-    color: white;
-    border: 2px solid white;
-    border-top-left-radius:15px ;
-    border-bottom-right-radius:15px ;
+.roadmap-button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  border: 2px solid white;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.roadmap-button:hover{
-    background-color: black;
-    color: white;
-    cursor: pointer;
+.roadmap-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
 
-.text-hack{
-    /* text-white md:text-7xl max-sm:text-5xl font-bold mb-5 */
-    font-family: 'Alone_in_space';
-    font-weight: 50px;
-    font-size: 50px;
-    color: white;
-    margin-bottom: 40px;
+.text-hack {
+  /* text-white md:text-7xl max-sm:text-5xl font-bold mb-5 */
+  font-family: "Alone_in_space";
+  font-weight: 50px;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 40px;
 }
 
-.text-body{
-    width: 500px;
-    font-family: 'Ubuntu';
-    font-weight: 20px;
-    font-size: 16px;
-    color: white;
-    box-sizing: border-box;
+.text-body {
+  width: 500px;
+  font-family: "Ubuntu";
+  font-weight: 20px;
+  font-size: 16px;
+  color: white;
+  box-sizing: border-box;
 }
 
+.play-butt {
+  font-family: "Alone_in_space";
+  font-size: 25px;
+  border: 2px solid white;
 
-.play-butt{
-    content: ' ';
-    position: relative;
-    font-family: 'Alone_in_space';
-    font-size: 25px;
-    border: 2px solid white;
-    width: 500px;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
-.play-butt > span{
-    position: relative;
-    bottom: 5px;
+.play-butt > span {
+  position: relative;
+  bottom: 5px;
 }
