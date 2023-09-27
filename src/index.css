@@ -21,6 +21,10 @@
   border-bottom-right-radius: 15px;
 }
 
+@media screen and (min-width: 480px){
+
+}
+
 .regest-button {
   /* bg-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
   height: 40px;
@@ -56,13 +60,12 @@
   /* text-white md:text-7xl max-sm:text-5xl font-bold mb-5 */
   font-family: "Alone_in_space";
   font-weight: 50px;
-  font-size: 50px;
+  font-size: 30px;
   color: white;
   margin-bottom: 40px;
 }
 
 .text-body {
-  width: 500px;
   font-family: "Ubuntu";
   font-weight: 20px;
   font-size: 16px;
