@@ -27,27 +27,23 @@
 
 .regest-button {
   /* bg-white px-6 py-2 cursor-pointer hover:bg-gray-600 */
-  height: 40px;
-  width: 150px;
-  color: black;
-  background-color: white;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  width: 134px;
+  height: 48px;
+  flex-shrink: 0;
+  background: url(/src/assets/new_assets/reg.svg);
 }
 
 .regest-button:hover {
-  background-color: black;
   color: white;
   cursor: pointer;
 }
 
 .roadmap-button {
-  height: 40px;
-  width: 150px;
+  width: 134px;
+  height: 48px;
+  flex-shrink: 0;
   color: white;
-  border: 2px solid white;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  background: url(/src/assets/check.svg);
 }
 
 .roadmap-button:hover {
