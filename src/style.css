@@ -35,13 +35,22 @@
 .name-space h1 {
   content: " ";
   position: absolute;
-  color: #76a3be;
   font-family: "Inter", sans-serif;
+  display: flex;
+width: 60px;
+height: 78px;
+flex-direction: column;
+justify-content: flex-end;
+flex-shrink: 0;
   font-size: 96px;
   font-style: normal;
   font-weight: 500;
   line-height: 80%;
   letter-spacing: -29.76px;
+  background: linear-gradient(90deg, #7FE786 7.42%, #58A7FE 93.62%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .name-space span {
   display: flex;
@@ -84,13 +93,22 @@
 .name-space-sec h1 {
   content: " ";
   position: absolute;
-  color: #76a3be;
   font-family: "Inter", sans-serif;
+  display: flex;
+width: 62px;
+height: 78px;
+flex-direction: column;
+justify-content: flex-end;
+flex-shrink: 0;
   font-size: 96px;
   font-style: normal;
   font-weight: 500;
   line-height: 80%;
   letter-spacing: -29.76px;
+  background: linear-gradient(90deg, #7FE786 7.42%, #58A7FE 93.62%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 .name-space-sec span {
@@ -344,7 +362,7 @@
 
 .write_up {
   position: absolute;
-  top: 670px;
+  top: 710px;
   left: 130px;
   z-index: 1;
 }
@@ -679,4 +697,165 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.main_text{
+  /* text-[64px] font-[500] text-custom-500 text-center */
+  font-size: 64px;
+  font-family: "Alone_in_space" ;
+}
+
+
+@media screen and (max-width: 872px){
+  .tim_tim, .stages{
+    max-width: 100%;
+    height: 145rem;
+    background: #070213;
+    z-index: -1;
+  }
+
+  .container{
+    position: relative;
+    align-items: center;
+    left: 3rem;
+  }
+
+  .tim_tim > h1{
+    align-items: center;
+  }
+
+  .name-space{
+    position: relative;
+    left: 10rem;
+    align-items: end;
+  }
+
+  .cent-cont{
+    position: absolute;
+    left: 4rem;
+    align-items: end;
+  }
+
+  .vect, .vect-second > img{
+    display: none;
+  }
+
+
+
+  .sec-cont{
+    position: absolute;
+        right: -12rem;
+        top: 30rem;
+       }
+  
+
+       .side_line{
+        position: relative;
+        right: 42rem;
+        top: 32rem;
+
+        }
+
+        .side_line > span{
+          position: relative;
+          width: 26rem;
+          top: -9rem;
+          right: -42rem;
+         
+        }
+
+        .eve_vec{
+          position: relative;
+          top: -6rem;
+          margin-left:2rem ;
+        }
+
+
+      .res_third{
+        position: relative;
+        top: 30rem;
+        right: -5rem;
+      }
+
+      .third-container > .name-space{
+        position: absolute;
+        top: 1110px;
+        left: 220px
+      }
+
+      .write_up{
+        position: relative;
+        top: 1286px;
+        left: 231px;
+        z-index: 1;
+  }
+
+
+  .third-container > .name-space-sec{
+    content: ' ';
+    position: relative;
+    top: 88rem;
+    left: 240px;
+  }
+
+      .for{
+        position: absolute;
+        width: 15rem;
+        height: 9rem;
+        left: -45rem;
+        top: 20rem;
+      }
+
+      .write_up > .sec-para{
+        position: relative;
+        top: 15rem;
+        left: -28rem;
+      }
+
+      .final-container{
+        width: 80px;
+        display: flex;
+      }
+
+      .react{
+        flex-direction: column;
+        position: relative;
+        top: 54rem;
+        left: 4rem;
+      }
+
+      .cup-ui{
+        position: relative;
+        left: 225px;
+      }
+
+
+      @media screen and (max-width: 836px) {
+        .third-container > .name-space-sec{
+          content: ' ';
+          position: relative;
+          top: 88rem;
+          left: 235px;
+        }
+
+        .write_up > .sec-para{
+          position: relative;
+          top: 11rem;
+          left: -26rem;
+        }
+        .final-container{
+          width: 80px;
+          display: flex;
+        }
+  
+        .react{
+          flex-direction: column;
+          position: relative;
+          top: 54rem;
+          left: -20rem;
+        }
+      }
 }

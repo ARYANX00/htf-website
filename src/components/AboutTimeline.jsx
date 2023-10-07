@@ -29,6 +29,7 @@ export default function AlternateReverseTimeline() {
         variants={timelineAnimation}
         initial="initial"
         whileInView="animate"
+        className=""
       >
         <TimelineItem position="right">
           <TimelineSeparator>

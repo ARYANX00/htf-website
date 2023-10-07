@@ -21,8 +21,7 @@
   border-bottom-right-radius: 15px;
 }
 
-@media screen and (min-width: 480px){
-
+@media screen and (min-width: 480px) {
 }
 
 .regest-button {
@@ -67,6 +66,12 @@
   font-size: 16px;
   color: white;
   box-sizing: border-box;
+}
+
+.MuiTimelineDot-root {
+  background: linear-gradient(#7fe786f7, #58a7fef7) !important;
+  width: 28px;
+  height: 28px;
 }
 
 .play-butt {

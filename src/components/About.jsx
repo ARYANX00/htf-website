@@ -1,6 +1,7 @@
 import AboutTimeline from "./AboutTimeline";
 import "boxicons";
 import { motion } from "framer-motion";
+import stars from "../assets/new_assets/reso/Stars-AboutUs.png";
 
 const Arrow = () => {
   return <box-icon name="play" color="#ffffff" size="md"></box-icon>;
@@ -13,8 +14,11 @@ const timelineAnimation = {
 
 const About = () => {
   return (
-    <div className="bg-[#070213] w-full min-h-screen flex bg-[url('../public/images/StarsStart.png')]  text-white flex-col lg:flex-row">
-      <div className="lg:w-1/2 flex flex-col gap-[5rem] items-center md:px-[8rem] py-[4rem]">
+    <div className="bg-[#070213] w-full min-h-screen flex  text-white flex-col lg:flex-row">
+      <div className="absolute left-0 top-0 w-full h-screen">
+        <img src={stars} />
+      </div>
+      <div className="lg:w-1/2 z-10 flex flex-col gap-[5rem] items-center md:px-[8rem] py-[4rem]">
         <div className="text-center lg:text-left p-4">
           <motion.h2
             className="text-[48px] font-[300]"
