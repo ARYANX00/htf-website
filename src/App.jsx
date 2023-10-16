@@ -7,6 +7,8 @@ import "./style.css";
 import Track from "./components/Track";
 import TIM_TIM from "./components/Tim_Tim";
 import AcompLish from "./components/AcompLish";
+import Sponsers from "./components/sponsers";
+import Teams from "./components/Teams";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Track />
       <TIM_TIM />
       <AcompLish />
+      <Sponsers />
+      <Teams />
     </div>
   );
 }

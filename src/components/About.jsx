@@ -1,7 +1,6 @@
 import AboutTimeline from "./AboutTimeline";
 import "boxicons";
 import { motion } from "framer-motion";
-import stars from "../assets/new_assets/reso/Stars-AboutUs.png";
 
 const Arrow = () => {
   return <box-icon name="play" color="#ffffff" size="md"></box-icon>;
