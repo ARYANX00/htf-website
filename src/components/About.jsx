@@ -14,10 +14,12 @@ const timelineAnimation = {
 
 const About = () => {
   return (
-    <div className="bg-[#070213] w-full min-h-screen flex  text-white flex-col lg:flex-row">
-      <div className="absolute left-0 top-0 w-full h-screen">
-        <img src={stars} />
-      </div>
+    <div
+      className={`bg-[#070213] bg-stars w-full relative lg:min-h-screen flex bg-center h-fit bg-cover bg-repeat-y text-white flex-col lg:flex-row`}
+    >
+      {/* <div className="absolute left-0  w-full h-full top-0">
+        <img src={stars} className="h-full object-cover" loading="eager" />
+      </div> */}
       <div className="lg:w-1/2 z-10 flex flex-col gap-[5rem] items-center md:px-[8rem] py-[4rem]">
         <div className="text-center lg:text-left p-4">
           <motion.h2
