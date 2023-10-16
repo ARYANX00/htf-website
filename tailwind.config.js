@@ -5,7 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         stars:
-          "url('C:/Users/khanu/OneDrive/Desktop/htf-2/htf-website/src/assets/new_assets/reso/Stars-AboutUs.png')",
+          "url('C:/Users/khanu/OneDrive/Desktop/htf-2/htf-website/public/images/Stars-AboutUs.png')",
       },
       colors: {
         custom: {
